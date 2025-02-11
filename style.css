@@ -1,0 +1,598 @@
+body {
+    background-image: url(./images/4090026_88332\ 1.png);
+    /* background-size: cover; */
+    /* background-size: 40%;
+    background-position: 107% 50%; */
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 15px 70px 15px 70px;
+}
+
+.nav-logo {
+    height: auto;
+    width: 60px;
+}
+
+.nav-button {
+    border-radius: 5px;
+    background-color: #67FED3;
+    padding: 5px 20px 5px 20px;
+    border-width: 0;
+    font-size: 12px;
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* first body section */
+
+.first-section {
+    margin-top: 60px;
+    padding: 15px 0 15px 0;
+}
+
+.first-section-h1 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.first-section-p {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+body>section.first-section>form {
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+body>section.first-section>form>input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.form-button {
+    background-color: #67FED3;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+
+
+.first-section-p-second {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+}
+
+form {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.first-container {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.house-image {
+    height: auto;
+    width: 79%;
+}
+
+/* second section */
+.second-section {
+    margin-top: 40px;
+}
+
+.second-section-h1 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.second-section-p {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+
+}
+
+.items {
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.items-1 {
+    background-color: #A6DAF8;
+}
+
+.items-2 {
+    background-color: #E1F5EF;
+}
+
+.items-3 {
+    background-color: #F5E8E1;
+}
+
+.items-4 {
+    background-color: #FFE9FD;
+    grid-column: 1/5;
+    background-image: url(./images/fullcircle.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 40%;
+    background-position: 107% 50%;
+}
+
+.section-img {
+    height: auto;
+    width: 8rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.second-section-h3 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+.second-section-p {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.second-section-second-h3 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+.second-section-second-p {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+
+/* third section */
+.second-container {
+    text-align: left;
+    padding: 70px 80px 70px 80px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: #05101D;
+    height: auto;
+    width: 79%;
+    justify-self: center;
+    border-radius: 10px;
+    background-image: url(./images/man-showing-house-icon-couch\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 108% 50%;
+    background-size: 50%;
+}
+
+.third-section-button-one {
+    background-color: #1d2631;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.third-section-paragraph {
+    color: #fff;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+
+}
+
+
+
+.third-section-h3 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 1;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.third-section-p {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 0.8rem;
+    padding-bottom: 20px;
+}
+
+.third-section--button {
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+/* fourth section */
+.fourth-section {
+
+
+    justify-items: center;
+}
+
+.fourth-section-h1 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.fourth-section-p {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+.fourth-section-button {
+    background-color: #fff;
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: #05101D;
+    border-style: outset;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+
+/* footer */
+
+
+
+
+/*-------------------------------------------------------- media querry responsive designs for mobile------------------------------------------- */
+
+@media (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+
+    .first-section {
+        margin-top: 50px;
+        padding: 15px 30px 15px 30px;
+    }
+
+    .first-section-h1 {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .first-section-p {
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px 30px 0 30px;
+    }
+
+    body>section.first-section>form {
+        justify-self: center;
+        margin-bottom: 10px;
+        /* justify-content: center; */
+        justify-items: center;
+        /* justify-self: center; */
+    }
+
+
+    body>section.first-section>form>input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 450px;
+        display: block;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .form-button {
+        background-color: #67FED3;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        border: none;
+        width: 450px;
+        border-radius: 5px;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .form-label {
+        justify-self: left;
+    }
+
+    /* end of form */
+
+    .first-section-p-second {
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .house-image {
+        height: auto;
+        width: 450px;
+    }
+
+
+    /* second section */
+    .second-section {
+        margin-top: 5px;
+        padding: 15px 30px 15px 30px;
+    }
+
+    .second-section-h1 {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .second-section-p {
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 450px;
+        grid-template-rows: auto auto auto auto;
+        gap: 10px;
+        justify-content: center;
+
+    }
+
+    .items {
+        padding: 30px;
+        margin: 30px 5px 30px 5px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .items-1 {
+        background-color: #A6DAF8;
+    }
+
+    .items-2 {
+        background-color: #E1F5EF;
+    }
+
+    .items-3 {
+        background-color: #F5E8E1;
+    }
+
+    .items-4 {
+        display: none;
+    }
+
+    .section-img {
+        height: auto;
+        width: 8rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .second-section-h3 {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1.7rem;
+    }
+
+    .second-section-p {
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.9rem;
+    }
+
+    .second-section-second-h3 {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1.7rem;
+        text-align: left;
+    }
+
+    .second-section-second-p {
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+
+    /* third section */
+    .second-container {
+        text-align: left;
+        padding: 30px 30px 30px 30px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        background-color: #05101D;
+        height: 800px;
+        width: 450px;
+        justify-self: center;
+        border-radius: 10px;
+        background-image: url(./images/man-showing-house-icon-couch\ 1\ \(1\).png);
+        background-repeat: no-repeat;
+        background-position: 108% 120%;
+        background-size: 100%;
+    }
+
+    .third-section-button-one {
+        background-color: #1d2631;
+        border-radius: 30px;
+        border: none;
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+
+    .third-section-paragraph {
+        color: #fff;
+        padding-top: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+
+    }
+
+
+
+    .third-section-h3 {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2.5rem;
+        line-height: 1;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+
+    .third-section-p {
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 200;
+        font-style: normal;
+        color: #fff;
+        font-size: 0.8em;
+        padding-bottom: 20px;
+        text-align: justify;
+
+    }
+
+    .third-section--button {
+        padding: 10px 20px 10px 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        border: none;
+        width: 400px;
+    }
+
+
+
+    /* fourth section */
+    .fourth-section {
+        justify-items: center;
+        padding: 5px 30px 5px 30px;
+    }
+    
+    .fourth-section-h1 {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+        font-size: 2.1rem;
+        line-height: 1;
+    }
+    
+    .fourth-section-p {
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    
+    .fourth-section-button {
+        background-color: #fff;
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: #05101D;
+        border-style: outset;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 100px;
+    
+    }
+
+
+    .navbar-footer{
+
+    }
+}
