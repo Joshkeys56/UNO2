@@ -309,14 +309,28 @@ form {
 
 /*-------------------------------------------------------- media querry responsive designs for mobile------------------------------------------- */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+
     .navbar {
         display: none;
     }
 
     .first-section {
-        margin-top: 50px;
-        padding: 15px 30px 15px 30px;
+        /* margin-top: 40px;
+        padding: 15px 30px 15px 30px; */
+        max-width: 100%;
+        margin: 30px auto;
+        padding: 0 20px;
     }
 
     .first-section-h1 {
@@ -324,7 +338,7 @@ form {
         font-weight: 800;
         font-style: normal;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.4rem;
         line-height: 1;
     }
 
@@ -333,7 +347,7 @@ form {
         font-weight: 300;
         font-style: normal;
         text-align: center;
-        font-size: 12px;
+        font-size: 0.79rem;
         padding: 10px 30px 0 30px;
     }
 
@@ -349,8 +363,9 @@ form {
     body>section.first-section>form>input {
         padding-top: 10px;
         padding-bottom: 10px;
-        width: 450px;
-        display: block;
+        width: 100%;
+        max-width: 450px;
+        /* display: block; */
         margin-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
@@ -358,12 +373,12 @@ form {
 
     .form-button {
         background-color: #67FED3;
-        padding-top: 11px;
-        padding-bottom: 11px;
+        padding: 11px 100px 11px 100px;
         border: none;
-        width: 450px;
+        max-width: 450px;
+        width: 100%;
         border-radius: 5px;
-        display: block;
+        /* display: block; */
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -379,18 +394,23 @@ form {
         font-weight: 400;
         font-style: normal;
         text-align: center;
+        font-size: 10px;
     }
 
     .house-image {
         height: auto;
-        width: 450px;
+        width: 100%;
+
     }
 
 
     /* second section */
     .second-section {
-        margin-top: 5px;
-        padding: 15px 30px 15px 30px;
+        /* margin-top: 5px;
+        padding: 15px 30px 15px 30px; */
+        max-width: 100%;
+        margin: 30px auto;
+        padding: 0 20px;
     }
 
     .second-section-h1 {
@@ -398,11 +418,21 @@ form {
         font-weight: 800;
         font-style: normal;
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 1;
     }
 
-    .second-section-p {
+    body > section.second-section > p{
+        font-size: 12px;
+        font-family: "IBM Plex Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .second-section-p2 {
         font-family: "IBM Plex Sans", serif;
         font-weight: 300;
         font-style: normal;
@@ -412,18 +442,20 @@ form {
 
     .container {
         display: grid;
-        grid-template-columns: 450px;
+        grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto;
-        gap: 10px;
+        gap: 20px;
         justify-content: center;
 
     }
 
     .items {
-        padding: 30px;
-        margin: 30px 5px 30px 5px;
+        /* padding: 30px;
+        margin: 30px 5px 30px 5px; */
         border-radius: 10px;
         text-align: center;
+        margin: auto;
+        padding: 0 20px;
     }
 
     .items-1 {
@@ -483,18 +515,22 @@ form {
     /* third section */
     .second-container {
         text-align: left;
-        padding: 30px 30px 30px 30px;
-        margin-top: 40px;
-        margin-bottom: 50px;
+        /* padding: 30px 30px 30px 30px; */
+        /* margin-top: 40px;
+        margin-bottom: 50px; */
         background-color: #05101D;
-        height: 800px;
-        width: 450px;
+        height: 700px;
+        /* width: 450px; */
         justify-self: center;
         border-radius: 10px;
         background-image: url(./images/man-showing-house-icon-couch\ 1\ \(1\).png);
         background-repeat: no-repeat;
-        background-position: 108% 120%;
+        background-position: 108% 110%;
         background-size: 100%;
+        max-width: 100%;
+        margin: 30px auto;
+        padding: 30px 20px;
+        font-family: "IBM Plex Sans", serif;
     }
 
     .third-section-button-one {
@@ -514,16 +550,13 @@ form {
         font-weight: 400;
         font-style: normal;
         font-size: 0.8rem;
-
     }
-
-
 
     .third-section-h3 {
         font-family: "Abhaya Libre", serif;
         font-weight: 800;
         font-style: normal;
-        font-size: 2.5rem;
+        font-size: 1.9rem;
         line-height: 1;
         color: #fff;
         padding-bottom: 20px;
@@ -541,11 +574,11 @@ form {
     }
 
     .third-section--button {
-        padding: 10px 20px 10px 20px;
+        padding: 10px 10px 10px 10px;
         background-color: #fff;
         border-radius: 5px;
         border: none;
-        width: 400px;
+        width: 100%;
     }
 
 
@@ -553,9 +586,12 @@ form {
     /* fourth section */
     .fourth-section {
         justify-items: center;
-        padding: 5px 30px 5px 30px;
+        /* padding: 5px 30px 5px 30px; */
+        max-width: 100%;
+        margin: 60px auto 30px auto;
+        padding: 0 20px;
     }
-    
+
     .fourth-section-h1 {
         font-family: "Abhaya Libre", serif;
         font-weight: 800;
@@ -564,15 +600,15 @@ form {
         font-size: 2.1rem;
         line-height: 1;
     }
-    
+
     .fourth-section-p {
         font-family: "IBM Plex Sans", serif;
         font-weight: 300;
         font-style: normal;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.79rem;
     }
-    
+
     .fourth-section-button {
         background-color: #fff;
         font-family: "IBM Plex Sans", serif;
@@ -587,12 +623,10 @@ form {
         border-style: outset;
         border-radius: 5px;
         margin-top: 15px;
-        margin-bottom: 100px;
-    
-    }
-
-
-    .navbar-footer{
+        margin-bottom: 10px;
 
     }
+
+
+    /* .navbar-footer {} */
 }
